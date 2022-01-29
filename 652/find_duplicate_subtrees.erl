@@ -1,8 +1,9 @@
 -module(find_duplicate_subtrees).
+-export([find_duplicate_subtrees/1]).
 
 -define(DBG(X),io:format("~p~n", [X])).
 
-%% # 652
+%% # 652. Find Duplicate Subtrees
 %% # https://leetcode.com/problems/find-duplicate-subtrees/
 
 
